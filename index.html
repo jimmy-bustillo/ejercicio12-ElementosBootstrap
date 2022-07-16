@@ -13,7 +13,45 @@
     crossorigin="anonymous"
   />
 
-  <body></body>
+  <body>
+    <div class="container py-4">
+      <!-- Jumbotron -->
+      <div class="bg-light p-5 rounded-3">
+        <div class="container-fluid py5">
+          <h1>Jumbotrom</h1>
+          <p class="col-6 fs-5">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            tempore, odio dolore eligendi, ipsam dicta minima doloremque ipsum
+            eaque assumenda dignissimos cum hic, voluptates laborum eum? Eveniet
+            omnis accusantium doloremque.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#modal"
+          >
+            Boton de Ejemplo
+          </button>
+        </div>
+      </div>
+
+      <div class="modal fade" data-bs-backdrop="static" id="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">Header</div>
+            <div class="modal-body">Body</div>
+            <div class="modal-footer">
+              <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                Cerrar
+              </button>
+              <button class="btn btn-primary">Aceptar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
